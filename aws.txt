@@ -115,3 +115,67 @@ AWS services can be managed through different interfaces:
 2. AWS CLI
 3. Software Development Kits (SDK's)
 4. HTTPS Query API
+
+AWS SERVICES
+
+AWS Foundational Service
+There are 23 different product or service categories, and each category consists of one or more service
+
+Storage Service Category
+1.Amazon S3
+It is an object storage service that provides scalability, security, data availability and perfomance. It is used to store any amount of data
+for websites, mobile data...
+It is used best when you need to store unstructured data like media files
+It is highly scalable meaning you can virtually store unlimited data
+
+Ideal for: Backup and disaster recovery, Storing photos/videos for apps, Hosting a static website.
+
+2.Amazon Elastic Block Store
+Is high perfomance block storage that is designed for use with Amazon EC2 for throughput and transaction intensive workloads
+
+Best when: You need fast, low-latency storage attached to a virtual machine (EC2).
+
+Ideal for: Applications requiring frequent read/write operations, Running databases like MySQL or PostgreSQL.
+
+3.Amazon Elastic File System
+
+4.Amazon Simple Storage Service Glacier
+ is a secure, durable, and extremely low-cost Amazon S3 cloud storage class for data archiving and long-term backup
+
+Best when: You need to store data for years at the lowest possible cost but rarely access it.
+
+Ideal for: 
+Compliance data (financial, medical, legal).
+Old backups and logs.
+
+Compute Service Category
+Provide the processing power to run applications, workloads, and code
+
+1. Amazon EC2 (Elastic Compute Cloud)
+
+Convenient when:
+You need full control over the OS, networking, and server configuration.
+Example use cases: Web servers, game servers, batch processing, enterprise apps.
+
+2.AWS Lambda (Serverless Compute)
+Runs your code without provisioning servers. You pay only for the execution time.
+
+3. AWS Elastic Beanstalk
+ A Platform as a Service (PaaS) that automatically handles deployment, scaling, and monitoring.
+
+Convenient when:
+You want to focus on your code and not the infrastructure.
+Example use cases: Rapidly deploying a web app, auto-scaling APIs.
+
+4. Amazon ECS (Elastic Container Service)
+Managed container orchestration (supports Docker containers).
+Convenient when:
+You’re deploying containerized apps but want AWS to manage the cluster.
+Example use cases: Microservices, batch jobs, scalable APIs.
+
+5.Amazon EKS (Elastic Kubernetes Service)
+Managed Kubernetes for running containerized applications.
+Example use cases: Multi-cloud workloads, large-scale app deployments.
+
+6.Amazon EC2 Auto Scaling
+enables you to automatically add or remove EC2 instances according to conditions that you define. 
