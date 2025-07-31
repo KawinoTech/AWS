@@ -179,3 +179,26 @@ Example use cases: Multi-cloud workloads, large-scale app deployments.
 
 6.Amazon EC2 Auto Scaling
 enables you to automatically add or remove EC2 instances according to conditions that you define. 
+
+
+
+
+
+
+
+
+
+
+
+AWS SECURITY
+
+AWS Shared Responsibility
+Security and compliance are a shared responsibility between AWS and the customer
+AWS is responsible for protecting the infrastructure where all AWS services run. The customer is responsible for data encryption at rest and in transit (Security of everything they put in the cloud). The customer 
+is also responsible for configuring security groups, firewall configurations, network configuration and configuring OS that run on a compute instance.
+
+AWS is responsible for:
+1. Physical security of data centers
+2. Hardware infrasturcture
+3. Software infrastructure
+4. Network Infrastructure e.g switches, routers, load balancers
